@@ -1,0 +1,51 @@
+Tasks Boarding Model:
+
+Basic model, advanced model, senaciorus
+a) passengers are going to respond by carrying more luggage onto the plan
+
+Basic Models:
+a)  What indicators do you propose to measure the quality of a policy? Propose at least two indicators. Based on Figure 1, model and simulate with Anylogic the current policy with 20 rows with 6 seats per row and a central corridor. 
+
+Measures: 
+1) Average time it takes for each passenger to leave the queue and sit in their seat.   
+2) Total time of boarding: from the start of ther service to the end of the boargind (every passenger in his seat).
+3)  percentage of times the boarding time goes over the goal of 30 minutes
+4) How much time the passengers spend on the queue and inside the airplane
+
+Criativity:
+a) people seating in wrong seat
+b) passengers with special needs takes more time to board
+c) passengers take time to put the luggage
+d) passenger with priority (gold passengers) can enter any time 
+e) passengers have to get up so that the other passengers can go to their seats in the same row
+f) Bording for 2 doors
+
+TODO 30_03_2020:
+a) Change excel file to include golden passengers. Golden passengers will board after the special needs, together first class block - OK
+b) Order the boarding by queues - Not Yet
+c) make passengers load the luggage - Not yet
+d) passangers can`t disapear after seat - Ok
+d) make passengers get up - Not Yet
+e) adjust colours - Ok
+f) clean model in order to have just what is used - Ok
+
+TODO 31_03_2020:
+a) Change excel file to include luggage - OK
+b) Order the boarding by queues - Not Yet
+c) make passengers load the luggage - Not yet
+d) passangers can`t disapear after seat - Ok
+d) make passengers get up - Not Yet
+e) adjust colours - Ok
+f) clean model in order to have just what is used - Ok
+
+
+TODO 01_04_2020:
+b) Order the boarding by queues - Not Yet
+c) make passengers load the luggage - Not yet
+d) passangers can`t disapear after seat - Ok
+d) make passengers get up - Not Yet
+e) adjust colours - Ok
+f) clean model in order to have just what is used - Ok
+
+ped.setSpeed(triangular(1.56, 0.94, 1.17))
+triangular(1.56, 0.94, 1.17)
