@@ -87,13 +87,12 @@
 \hbadness=10000
 
 \pagenumbering{roman}
-\chapter*{Summary}
+\chapter*{Abstract}
 \input{chapters/summary}
 
 \setcounter{tocdepth}{2}
 \tableofcontents
 %\addtocontents{toc}{~\hfill\textbf{Page}\par}
-\listoffigures
 \listoftables
 
 % ----------- CHAPTERS ----------------
@@ -110,24 +109,36 @@
 \pagenumbering{arabic}
 \setcounter{page}{1}
 
-\chapter{System Boundaries}
-\input{chapters/systemboundaries}
+\renewcommand{\cleardoublepage}{}
+\renewcommand{\clearpage}{}
+\centering
+\justify
+\chapter{Introduction}
+\input{chapters/introduction}
 
-\chapter{Causal Loop Diagram}
-\input{chapters/cld}
+\chapter{Data Collection and Assumptions}
+\input{chapters/data}
 
-\chapter{Equation Analysis}
-\input{chapters/equations}
+\chapter{Model Structure}
+\input{chapters/modelStructure}
 
-\chapter{Development of Simulation Model}
-\input{chapters/simulationmodel}
+\chapter{Performance Metrics}
+\input{chapters/metrics}
 
-\chapter{Simulation}
-\input{chapters/simulations}
+\chapter{Results}
+\input{chapters/results}
 
-\chapter{Sensitivity Analysis}
-\input{chapters/sensitivity}
+\chapter{Model 3}
+\input{chapters/model3}
 
+\chapter{Scenarios}
+\input{chapters/scenarios}
+
+\chapter{Conclusion}
+\input{chapters/conclusion}
+
+
+\newpage
 % chapter heading as preface and toc
 \titleformat{\chapter}[display]
  {\bfseries\Large}
